@@ -14,15 +14,19 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:src="@drawable/splashscreen"/>
 
-    <!--<TextView-->
-        <!--android:text="yoUR fest 2017"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:id="@+id/textView2"-->
-        <!--tools:text="yoUR fest 2017"-->
-        <!--android:textSize="36sp" />-->
+
+    <Button
+        android:text="Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0"
+        android:id="@+id/button_enter"
+        tools:text="Enter"
+        android:textSize="36sp" />
+
 </LinearLayout>

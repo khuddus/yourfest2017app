@@ -107,6 +107,11 @@ public class Cultural extends AppCompatActivity {
                         "                                    ",
                 R.drawable.telugu_ammayi
         ));
+        events.add(new Event(" Mr.Perfect", " <div class=\"modal-body\">\n" +
+                "                                        <p>Rules will be notified at the time of event</p>\n" +
+                "                                    </div>\n" +
+                "                                    ", R.drawable.mr_perfect));
+
         events.add(new Event(
                 "Rangoli",
                 " <h4 class=\"text-center\"> Rangoli</h4>\n" +
@@ -142,6 +147,31 @@ public class Cultural extends AppCompatActivity {
                 R.drawable.telugu_velugu
         ));
 
+        events.add(new Event(
+                "Spot Photography ",
+                " <b> Rules:</b><br>\n" +
+                        "                                        \n" +
+                        "                                           <p>Cameras/Mobile phones</p><br>\n" +
+                        "                                           <p>Empty Memory Card-Cameras</p><br>\n" +
+                        "                                           <p>Cameras - NEF Raw - 52MB</p><br>\n" +
+                        "                                           <p>No editing of photos</p><br>\n" +
+                        "                                           <p>Photos can be Miniature, LandScapes, portraits etc.</p><br>\n" +
+                        "                                           <p>Time limit is 1 hour</p><br>\n" +
+                        "                                           <p>Photo should be taken with in the college boundaries</p><br>\n" +
+                        "                                          ",
+                R.drawable.spot_photography
+        ));
+        events.add(new Event(
+                " Dubsmash  ",
+                "  <b> Rules:</b><br>\n" +
+                        "                                        \n" +
+                        "                                           <p>Videos should be less than 5 minutes</p><br>\n" +
+                        "                                           <p>Video should contain only 1 participant</p><br>\n" +
+                        "                                           <p>MP4 format in pendrive</p><br>\n" +
+                        "                                           <p>Theme: Comedy</p><br>\n" +
+                        "                                   ",
+                R.drawable.dubsmash
+        ));
 
         setContentView(R.layout.activity_cultural);
 

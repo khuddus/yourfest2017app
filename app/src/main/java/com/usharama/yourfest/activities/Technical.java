@@ -343,10 +343,22 @@ public class Technical extends AppCompatActivity {
                             "                                    </div>\n" +
                             "                                   ",
                     R.drawable.circuitrix));
-            events.add(new Event(" Mr.Perfect", " <div class=\"modal-body\">\n" +
-                    "                                        <p>Rules will be notified at the time of event</p>\n" +
-                    "                                    </div>\n" +
-                    "                                    ", R.drawable.mr_perfect));
+            events.add(new Event("Swimming in C",
+                    "<div class=\"modal-body\">\n" +
+                            "                                        <b> Rules:</b><br>\n" +
+                            "                                       <br><br>\n" +
+                            " <b>Round 1</b>:<br>\n" +
+                            "[screening test]<br>In this round, 20 bits will be given to each participant and the time limit is 25minutes.<br>The questions consists of:<br>Basics of C language<br>Simple logic evaluation bits.\n" +
+                            "                                    <br><b><br>Rules for round1:</b><br>Participants should return the answer sheet before 25min.<br>The qualified students will be promoted to the second round.\n" +
+                            "<br><br><b><hr>Round 2:</b><br>[Implementation of logic]<br>In this round, a logic /problem statement will be given and the students need to generate their own code with accurate output.\n" +
+                            "<br>Time limit of 30 minutes<br>The students will be provided with a white paper and the expected out should be written.<br><br><b>Rules for round2:</b><br>Logic is common to all the participants.<br>The answer sheet must be submitted by the participants on or before 30 min. There after the answer sheets are not accepted.<br>The students selected in the second round will be promoted to the third round.\n" +
+                            "<br><br><b><hr>Round 3:</b><br>[Debugging]<br>In this, the participant should detect the errors in the given program and display the desired output.<br><br><b>Rules for round3:</b><br>\n" +
+                            "In this round, the participants should detect the error within the given time.<br>If more than one participants detect the error at the same time, their marks in the first two rounds will be considered.<br>The time limit for the third round will be         announced at the time of event.  \n" +
+                            "" +
+                            "                                    </div>\n" +
+                            "                                   ",
+                    R.drawable.c_programming));
+
         }
         setContentView(R.layout.activity_technical);
 
@@ -384,7 +396,7 @@ public class Technical extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent=new Intent(this,Register.class);
+            Intent intent = new Intent(this, Register.class);
             startActivity(intent);
             return true;
         }
@@ -432,11 +444,11 @@ public class Technical extends AppCompatActivity {
             TextView eventName = (TextView) rootView.findViewById(R.id.section_label);
             TextView eventDescription = (TextView) rootView.findViewById(R.id.event_description);
             ImageView eventImage = (ImageView) rootView.findViewById(R.id.event_image);
-            Button button=(Button)rootView.findViewById(R.id.button);
+            Button button = (Button) rootView.findViewById(R.id.button);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent=new Intent(container.getContext(),Register.class);
+                    Intent intent = new Intent(container.getContext(), Register.class);
                     startActivity(intent);
                 }
             });
