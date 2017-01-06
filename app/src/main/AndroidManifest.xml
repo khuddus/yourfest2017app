@@ -45,7 +45,7 @@
                 android:value="com.usharama.yourfest.activities.MainActivity" />
         </activity>
         <activity android:name=".activities.SplashScreen"
-            android:noHistory="true">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

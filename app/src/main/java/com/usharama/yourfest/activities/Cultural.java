@@ -172,6 +172,21 @@ public class Cultural extends AppCompatActivity {
                         "                                   ",
                 R.drawable.dubsmash
         ));
+        events.add(new Event(
+                " Master Communicator  ",
+                "   <p>1. Written Test - 20 Questions, multiple choice - 20 min</p>\n" +
+                        "                                        <p><b>Topics:-</b></p>\n" +
+                        "                                        <p>Similarity checker<br>\n" +
+                        "                                            Observation Test<br>\n" +
+                        "                                            Cross words<br>\n" +
+                        "                                        Puzzles\n" +
+                        "                                        </p>\n" +
+                        "                                        <p>2. Just-A-Minute(JAM) - 1 min</p>\n" +
+                        "                                        <p>3. Tongue Twisters - 2 minutes </p>\n" +
+                        "                                        <p>Rules will be notified at the time of event</p>\n" +
+                        "                                        <p>Contact No: 7842444676(Kesava), 8142938115(Harish)</p> <br><br><br>",
+                R.drawable.communicator
+        ));
 
         setContentView(R.layout.activity_cultural);
 
