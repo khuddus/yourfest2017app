@@ -55,9 +55,9 @@ public class Technical extends AppCompatActivity {
                     "Paper Presentation",
                     " <b> Rules:</b><br>\n" +
                             "                                        Paper should be in IEEE format, max two authors per team.\n" +
-                            "                                       <br> Last date for submission of your abstracts is 20-Jan-2017" +
-                            "<br> Selections will notified on 22-Jan-2017<br>" +
-                            " <h5>TOPICS for PPT</h5>\n" +
+                            "                                        <br>\n" +
+                            "                                        Last Date for submission of your paper in soft copy is 21-Jan-2017.\n" +
+                            "                                        Selection of the paper will be notified on 23-Jan-2017.\n" +
                             "                                        <div class=\"panel-group\" id=\"accordion\">\n" +
                             "                                            <div class=\"panel panel-default\">\n" +
                             "                                                <div class=\"panel-heading\">\n" +
@@ -304,60 +304,107 @@ public class Technical extends AppCompatActivity {
                     R.drawable.project_exhibition));
             events.add(new Event("Robo Race",
                     "<div class=\"modal-body\">\n" +
-                            "                                        <b> Rules:</b><br>\n" +
+                            "       <b class=\"text-danger\">Event Co-ordinator: Mr. D Murali Krishna, Mechanical,  Diploma Incharge,  Ph:7382608011  </b><br>\n" +
+                            "                                  <b> Rules:</b><br>\n" +
                             "                                        Can be a team of three members\n" +
                             "                                    </div>\n",
                     R.drawable.robo_race));
             events.add(new Event(
                     "Engineer ka MahaSangram",
-                    "<div class=\"modal-body\">\n" +
-                            "                                        <p><b>Only event with prize money of 1 Lakh rupees</b></p>\n" +
-                            "                                        <p>Rules will be notified at the time of event</p>\n" +
-                            "                                    </div>\n" +
-                            "                                    ",
+                    "  <b class=\"text-danger \"> Event Co-ordinator: Prof. A Madanamohana Rao, Vice-Principal</b>\n" +
+                            "                                        <p>Rules will be notified at the time of event</p>\n  ",
                     R.drawable.engineer_ka_mahasangram));
             events.add(new Event(" Best Business Idea",
-                    " <div class=\"modal-body\">\n" +
+                    "       <b class=\"text-danger\">Event Co-ordinator: Mr. V Mahesh John, T&P,  Ph:9396804756  </b><br>\n" +
                             "                                        <b> Rules:</b><br>\n" +
-                            "                                        Should be presented at the time of event\n" +
-                            "                                    </div>\n" +
-                            "                                   ",
+                            "                                        Should be presented at the time of event\n",
                     R.drawable.business_idea));
             events.add(new Event(" Bridge Construction",
-                    "<div class=\"modal-body\">\n" +
+                    "<b class=\"text-danger\">Event Co-ordinator: Mr. V Srinivasa Rao, Civil,  Ph:9490735381  </b><br>\n" +
                             "                                        <b> Rules:</b><br>\n" +
-                            "                                        Should be a team of two members\n" +
-                            "                                    </div>\n",
+                            "                                        Should be a team of two members\n",
                     R.drawable.bridge_construction));
             events.add(new Event("Technical Quiz",
-                    "<div class=\"modal-body\">\n" +
-                            "                                        <b> Rules:</b><br>\n" +
-                            "                                        Quiz: Should be a team of two members\n" +
-                            "                                    </div>\n" +
-                            "                                   ",
+                    " <b> Rules:</b><br>\n" +
+                            "\n" +
+                            "                                        For <b><span class=\"text-primary\">Diploma</span>, <span  class=\"text-danger\">B.Tech</span> and <span class=\"text-success\"> M.Tech</span></b>\n" +
+                            "\n" +
+                            "                                        <br>\n" +
+                            "                                        Should be a team of two members\n",
                     R.drawable.technical_quiz));
             events.add(new Event(" Circuitrix",
-                    " <div class=\"modal-body\">\n" +
+                    " <b class=\"text-danger\">Event Co-ordinator: Mr. B Balaji, ECE,  Ph:9010250644 </b><br>\n" +
+                            "                                        <p>This event will be organized by the III year ECE students<br>\n" +
+                            "                                            The event consist of 4 rounds.<br>\n" +
+                            "                                            1. Written test[ Aptitute, EDC, Basic Physics, STLD, ET] -20 bits - 20 Mins<br>\n" +
+                            "                                            2. Components Identification <br>\n" +
+                            "                                            using color coding, IC numbers etc..<br>\n" +
+                            "                                            PIN names. 20sec per head<br>\n" +
+                            "                                            3. Circuit Designing:<br>\n" +
+                            "                                            Connect the circuit as per the diagram and show the output\n" +
+                            "                                            <br>\n" +
+                            "                                            4. Quiz: Current affairs\n" +
+                            "                                            <br>\n" +
+                            "                                            Spot Registrations are accepted.<br>\n" +
+                            "                                            The event will be conducted on 25/1/16\n" +
+                            "                                            <br>\n" +
+                            "                                            Timings: will be start around 10:00 AM\n" +
+                            "                                            <br>Participation certificates will be given\n" +
+                            "                                        </p>\n" +
                             "                                        <b> Rules:</b><br>\n" +
-                            "                                        Should be a team of two members\n" +
-                            "                                    </div>\n" +
-                            "                                   ",
+                            "                                        Will be announced on spot\n" +
+                            "\n" +
+                            "                                        <br>\n" +
+                            "                                        <br>\n" +
+                            "                                        Organized by <br>\n" +
+                            "                                        B.Uttej Sai\n" +
+                            "                                        <br>\n" +
+                            "8374760914",
                     R.drawable.circuitrix));
-            events.add(new Event("Swimming in C",
-                    "<div class=\"modal-body\">\n" +
+            events.add(new Event(" Techno Hunt",
+                    "  <b class=\"text-danger\">Event Co-ordinator: Ms K Sowjanya, ECE, Ph:8096732721 </b><br>\n" +
+                            "                                        <p>\n" +
+                            "                                            This is an event conducted by III-ECE-A students\n" +
+                            "                                            <br>\n" +
+                            "                                            It is similar to treasure hunt, but hints and clues are in Technical format\n" +
+                            "                                            <br>\n" +
+                            "                                            This event consists of four stages. Overall time limit for this event is 30 min.\n" +
+                            "                                            <br>\n" +
+                            "                                            Participants are able to participate as a team of 3 members.\n" +
+                            "                                            <br>\n" +
+                            "                                            Clues and hints for hunting are in and around the Campus premises.\n" +
+                            "                                            <br>\n" +
+                            "                                            Students of these branches are eligible for participation : ECE, EEE, CSE, MECH\n" +
+                            "                                            <br>\n" +
+                            "                                            Registration fee is Rs.100/-\n" +
+                            "                                        </p>\n" +
                             "                                        <b> Rules:</b><br>\n" +
-                            "                                       <br><br>\n" +
-                            " <b>Round 1</b>:<br>\n" +
-                            "[screening test]<br>In this round, 20 bits will be given to each participant and the time limit is 25minutes.<br>The questions consists of:<br>Basics of C language<br>Simple logic evaluation bits.\n" +
-                            "                                    <br><b><br>Rules for round1:</b><br>Participants should return the answer sheet before 25min.<br>The qualified students will be promoted to the second round.\n" +
-                            "<br><br><b><hr>Round 2:</b><br>[Implementation of logic]<br>In this round, a logic /problem statement will be given and the students need to generate their own code with accurate output.\n" +
-                            "<br>Time limit of 30 minutes<br>The students will be provided with a white paper and the expected out should be written.<br><br><b>Rules for round2:</b><br>Logic is common to all the participants.<br>The answer sheet must be submitted by the participants on or before 30 min. There after the answer sheets are not accepted.<br>The students selected in the second round will be promoted to the third round.\n" +
-                            "<br><br><b><hr>Round 3:</b><br>[Debugging]<br>In this, the participant should detect the errors in the given program and display the desired output.<br><br><b>Rules for round3:</b><br>\n" +
-                            "In this round, the participants should detect the error within the given time.<br>If more than one participants detect the error at the same time, their marks in the first two rounds will be considered.<br>The time limit for the third round will be         announced at the time of event.  \n" +
-                            "" +
-                            "                                    </div>\n" +
-                            "                                   ",
+                            "                                        Should be presented at the time of event <br><br>\n",
+                    R.drawable.technohunt));
+            events.add(new Event("Swimming in C",
+                    " <b class=\"text-danger\">Event Co-ordinator: Mr SM Roychoudri, CSE, Ph:9849645441 </b><br>\n" +
+                            "                                        <b>Round 1</b>:<br>\n" +
+                            "                                        [screening test]<br>In this round, 20 bits will be given to each participant and the time limit is 25minutes.<br>The questions consists of:<br>Basics of C language<br>Simple logic evaluation bits.\n" +
+                            "                                        <br><b><br>Rules for round1:</b><br>Participants should return the answer sheet before 25min.<br>The qualified students will be promoted to the second round.\n" +
+                            "                                        <br>\n" +
+                            "                                        <br><hr>\n" +
+                            "                                        <b>Round 2:</b>\n" +
+                            "                                        <br>[Implementation of logic]\n" +
+                            "                                        <br>In this round, a logic /problem statement will be given and the students need to generate their own code with accurate output.\n" +
+                            "                                        <br>Time limit of 30 minutes<br>The students will be provided with a white paper and the expected out should be written.<br><br><b>Rules for round2:</b><br>Logic is common to all the participants.<br>The answer sheet must be submitted by the participants on or before 30 min. There after the answer sheets are not accepted.<br>The students selected in the second round will be promoted to the third round.\n" +
+                            "                                        <br><br><hr><b>Round 3:</b><br>[Debugging]<br>In this, the participant should detect the errors in the given program and display the desired output.<br><br><b>Rules for round3:</b><br>\n" +
+                            "                                        In this round, the participants should detect the error within the given time.<br>If more than one participants detect the error at the same time, their marks in the first two rounds will be considered.<br>The time limit for the third round will be         announced at the time of event.  \n" +
+                            "                                        <br> <b> Rules:</b><br>\n" +
+                            "                                        Should be presented at the time of event <br><br>\n" +
+                            "\n   ",
                     R.drawable.c_programming));
+            events.add(new Event("Auto CAD",
+                    "  <b class=\"text-danger\">Event Co-ordinator: Mr B Anup, Civil, Ph:8143182364 </b><br>\n" +
+                            "                                        <p> <b> Rules:</b><br>\n" +
+                            "                                        <p>Time limit: 1 hour</p> \n" +
+                            "<p>Drawing:- Section, plan, elevation </p>",
+                    R.drawable.autocad));
+
 
         }
         setContentView(R.layout.activity_technical);

@@ -52,9 +52,9 @@ public class Cultural extends AppCompatActivity {
         events = new ArrayList<>();
         events.add(new Event(
                 " Short Film contest",
-                "<h4 class=\"text-center\">   Short Film contest</h4>\n" +
+                "  <b class=\"text-danger\">Event Co-ordinator: Mr. B Phani Ranga Raja,EEE,  Ph:9032916581 </b><br>\n" +
                         "                                        <p>\n" +
-                        "                                            <strong><u>Short film Mania</u></strong>:&nbsp; Max. time limit is 10mins.</p>\n" +
+                        "                                            <strong><u>Short film Mania</u></strong>:&nbsp; Max. time limit is <b>10 mins</b>.</p>\n" +
                         "                                        <p>\n" +
                         "                                            &nbsp; Themes for Short Film contest :</p>\n" +
                         "                                        <p>\n" +
@@ -68,123 +68,120 @@ public class Cultural extends AppCompatActivity {
                         "                                        <p>\n" +
                         "                                            &nbsp;&nbsp;&nbsp;&nbsp; 5. Advancement in Technology</p>\n" +
                         "                                        <p>\n" +
+                        "                                        <p>\n" +
+                        "                                            &nbsp;&nbsp;&nbsp;&nbsp; 6. Cashless Transactions</p>\n" +
+                        "                                        <p>\n" +
                         "                                            &nbsp;</p>\n",
                 R.drawable.short_films
         ));
         events.add(new Event(
-                "Best Singer Male(solo)",
-                "<b> Rules:</b><br>\n" +
-                        "                                        should not use back ground music   \n" +
-                        "                                   ",
+                "Best Singer (solo)",
+                "   <br><b class=\"text-danger\">Event Co-ordinator: Mr. B Trivikrama Rao, IT,  Ph:9703418339 </b><br>\n" +
+                        "                                        <br> Prizes will be awarded separately for <b>Male singer</b> and <b>Female singer</b>.<br>\n" +
+                        "                                        <br> <b> Rules:</b><br>\n" +
+                        "                                        should not use back ground music   \n ",
                 R.drawable.best_singer
         ));
+
         events.add(new Event(
-                "Best Singer Female(solo)",
-                "<b> Rules:</b><br>\n" +
-                        "                                        should not use back ground music   \n" +
-                        "                                   ",
-                R.drawable.best_singer_female
-        ));
-        events.add(new Event(
-                " Best Dancer Male(solo)",
-                "  <b> Rules:</b><br>\n" +
+                " Best Dancer (solo)",
+                "   <b class=\"text-danger\">Event Co-ordinator: Mr. M Rama Mohana Rao, ECE-HOD,  Ph:9440095992 </b><br>\n" +
+                        "                                        <br>\n" +
+                        "                                        Prizes will be awarded separately for <b>Male Dancer</b> and <b>Female Dancer</b>.<br>\n" +
+                        "                                        <b> Rules:</b><br>\n" +
                         "                                        max time 5 mins  <br>\n" +
-                        "                                        Bring your own songs\n" +
-                        "                                  ",
+                        "Bring your own songs and properties  ",
                 R.drawable.best_dancer
         ));
-        events.add(new Event(
-                "Best Dancer Female(solo)",
-                "<b> Rules:</b><br>\n" +
-                        "                                        max time 5 mins  <br>\n" +
-                        "                                        Bring your own songs\n",
-                R.drawable.best_dancer_female
-        ));
+
         events.add(new Event(
                 " Telugu ammai contest ",
-                " <b> Rules:</b><br>\n" +
-                        "                                        Should be presented at the time of event\n" +
-                        "                                    ",
+                " <b> <b class=\"text-danger\">Event Co-ordinator:Ms Y Salini, CSE,  Ph:8121169999 </b><br>\n" +
+                        "                                        <br><br><b> Rules:</b><br>\n" +
+                        "                                        Should be presented at the time of event\n ",
                 R.drawable.telugu_ammayi
         ));
-        events.add(new Event(" Mr.Perfect", " <div class=\"modal-body\">\n" +
-                "                                        <p>Rules will be notified at the time of event</p>\n" +
-                "                                    </div>\n" +
-                "                                    ", R.drawable.mr_perfect));
+        events.add(new Event(" Mr.Perfect",
+                "     <b class=\"text-danger\">Event Co-ordinator: Mr. P Syam Sundar, ECE,  Ph:8885522122 </b><br>\n" +
+                        "                                        <p>Rules will be notified at the time of event</p>\n ",
+                R.drawable.mr_perfect));
 
         events.add(new Event(
                 "Rangoli",
-                " <h4 class=\"text-center\"> Rangoli</h4>\n" +
-                        "                                        <b> Rules:</b><br>\n" +
-                        "                                        A group of two members ( participants should bring their materials)\n" +
-                        "                                  ",
+                "   <b class=\"text-danger\">Event Co-ordinator:Ms M Naga Deepthi , Maths,  Ph:9866920172 </b><br>\n" +
+                        "                                        <br><br> <b> Rules:</b><br>\n" +
+                        "                                        A group of two members ( participants should bring their materials)\n ",
                 R.drawable.rangoli_contest
         ));
         events.add(new Event(
                 " Literary Competitions",
-                " <p >\n" +
+                "  <b class=\"text-danger\">Event Co-ordinator:Ms M Revathi Devi , English,  Ph:8106146054 </b><br>\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (a)&nbsp;&nbsp;&nbsp; Extempore</p>\n" +
-                        "                                        <p >\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (b)&nbsp;&nbsp; Debate</p>\n" +
-                        "                                        <p >\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (c)&nbsp;&nbsp;&nbsp; Creative writing</p>\n" +
                         "                                        <b> Rules:</b><br>\n" +
-                        "                                        Should be presented on the day of event\n" +
-                        "                                   ",
+                        "                                        Should be presented on the day of event\n",
                 R.drawable.literary_competition
         ));
         events.add(new Event(
                 "Telugu Velugu",
-                " <p >\n" +
+                " <b class=\"text-danger\">Event Co-ordinator: Dr P Ramesh Babu , Physics,  Ph:9490176196 </b><br>\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (a)&nbsp;&nbsp;&nbsp; Padaghuri</p>\n" +
-                        "                                        <p >\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (b)&nbsp;&nbsp; Vadam-Vivadam</p>\n" +
-                        "                                        <p >\n" +
+                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (c)&nbsp;&nbsp;&nbsp; Vyasa Rachana</p>\n" +
                         "                                        <b> Rules:</b><br>\n" +
-                        "                                        Should be presented on the day of event\n" +
-                        "                                 ",
+                        "Should be presented on the day of event",
                 R.drawable.telugu_velugu
         ));
 
         events.add(new Event(
                 "Spot Photography ",
-                " <b> Rules:</b><br>\n" +
-                        "                                        \n" +
-                        "                                           <p>Cameras/Mobile phones</p><br>\n" +
-                        "                                           <p>Empty Memory Card-Cameras</p><br>\n" +
-                        "                                           <p>Cameras - NEF Raw - 52MB</p><br>\n" +
-                        "                                           <p>No editing of photos</p><br>\n" +
-                        "                                           <p>Photos can be Miniature, LandScapes, portraits etc.</p><br>\n" +
-                        "                                           <p>Time limit is 1 hour</p><br>\n" +
-                        "                                           <p>Photo should be taken with in the college boundaries</p><br>\n" +
-                        "                                          ",
+                "    <b class=\"text-danger\">Event Co-ordinator:Mr E Ramakrishna Reddy ,ECE,  Ph:9502251501 </b><br>\n" +
+                        "                                        <br><br> <b> Rules:</b><br>\n" +
+                        "\n" +
+                        "                                        <p>Cameras/Mobile phones</p> \n" +
+                        "                                        <p>Empty Memory Card-Cameras</p> \n" +
+                        "                                        <p>Cameras - NEF Raw - 52MB</p> \n" +
+                        "                                        <p>No editing of photos</p> \n" +
+                        "                                        <p>Photos can be Miniature, LandScapes, portraits etc.</p> \n" +
+                        "                                        <p>Time limit is 1 hour</p> \n" +
+                        "                                        <p>Photo should be taken with in the college boundaries</p> \n" +
+                        "\n  ",
                 R.drawable.spot_photography
         ));
         events.add(new Event(
                 " Dubsmash  ",
-                "  <b> Rules:</b><br>\n" +
-                        "                                        \n" +
-                        "                                           <p>Videos should be less than 5 minutes</p><br>\n" +
-                        "                                           <p>Video should contain only 1 participant</p><br>\n" +
-                        "                                           <p>MP4 format in pendrive</p><br>\n" +
-                        "                                           <p>Theme: Comedy</p><br>\n" +
-                        "                                   ",
+                "   <b class=\"text-danger\">Event Co-ordinator: Mr T Anil Kumar ,Chemistry,  Ph:9985148232 </b><br>\n" +
+                        "                                        <br><br><b> Rules:</b><br>\n" +
+                        "\n" +
+                        "                                        <p>Videos should be less than 5 minutes</p> \n" +
+                        "                                        <p>Video should contain only 1 participant</p> \n" +
+                        "                                        <p>MP4 format in pendrive</p> \n" +
+                        "                                        <p>Theme: Comedy</p> \n" +
+                        "\n  ",
                 R.drawable.dubsmash
         ));
         events.add(new Event(
                 " Master Communicator  ",
-                "   <p>1. Written Test - 20 Questions, multiple choice - 20 min</p>\n" +
+                "     <b class=\"text-danger\">Event Co-ordinator: Mr L Surendra ,ECE,  Ph:9949742597 </b><br>\n" +
+                        "                                        <p>1. Written Test - 20 Questions, multiple choice - 20 min</p>\n" +
                         "                                        <p><b>Topics:-</b></p>\n" +
                         "                                        <p>Similarity checker<br>\n" +
                         "                                            Observation Test<br>\n" +
                         "                                            Cross words<br>\n" +
-                        "                                        Puzzles\n" +
+                        "                                            Puzzles\n" +
                         "                                        </p>\n" +
                         "                                        <p>2. Just-A-Minute(JAM) - 1 min</p>\n" +
                         "                                        <p>3. Tongue Twisters - 2 minutes </p>\n" +
                         "                                        <p>Rules will be notified at the time of event</p>\n" +
-                        "                                        <p>Contact No: 7842444676(Kesava), 8142938115(Harish)</p> <br><br><br>",
+                        "\n" +
+                        "                                        <p>Contact No: 7842444676(Kesava), 8142938115(Harish)</p>\n",
                 R.drawable.communicator
         ));
 
