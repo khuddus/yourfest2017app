@@ -116,13 +116,14 @@ public class Cultural extends AppCompatActivity {
         events.add(new Event(
                 " Literary Competitions",
                 "  <b class=\"text-danger\">Event Co-ordinator:Ms M Revathi Devi , English,  Ph:8106146054 </b><br>\n" +
-                        "                                        <p style=\"margin-left: 0.75in;\">\n" +
+                        "      <p style=\"margin-left: 0.75in;\">\n" +
                         "                                            (a)&nbsp;&nbsp;&nbsp; Extempore</p>\n" +
                         "                                        <p style=\"margin-left: 0.75in;\">\n" +
-                        "                                            (b)&nbsp;&nbsp; Debate</p>\n" +
+                        "                                            (b)&nbsp;&nbsp; Vista:  (a) Your perspective, (b) Best rapport\n" +
+                        "</p>\n" +
                         "                                        <p style=\"margin-left: 0.75in;\">\n" +
-                        "                                            (c)&nbsp;&nbsp;&nbsp; Creative writing</p>\n" +
-                        "                                        <b> Rules:</b><br>\n" +
+                        "                                            (c)&nbsp;&nbsp;&nbsp; Leading Edge: Creative writing</p>\n" +
+                        "                                <b> Rules:</b><br>\n" +
                         "                                        Should be presented on the day of event\n",
                 R.drawable.literary_competition
         ));

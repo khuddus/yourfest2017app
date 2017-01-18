@@ -312,7 +312,26 @@ public class Technical extends AppCompatActivity {
             events.add(new Event(
                     "Engineer ka MahaSangram",
                     "  <b class=\"text-danger \"> Event Co-ordinator: Prof. A Madanamohana Rao, Vice-Principal</b>\n" +
-                            "                                        <p>Rules will be notified at the time of event</p>\n  ",
+                            "                                      <p>Phase-1 (All students): Online exam-30 Minutes, 30 Multiple choice questions</p>\n" +
+                            "<p>Phase-2 (30 Students): Answers should be in writing</p>\n" +
+                            "<p>Round-1 : Basic knowledge in Engineering (10 questions scrolls on board) 10 Marks</p>\n" +
+                            "<p>Round-2 : Logos (5 Each displayed for 10 seconds) 5 Marks</p>\n" +
+                            "<p>Round-3 : Taglines (5 Each displayed for 10 seconds) 5 Marks</p>\n" +
+                            "<p>Round-4 : Skill round (5-Questions, Each displayed for 60 seconds) 10 Marks</p>\n" +
+                            "<p>Round-5: Observations on a page (Displayed for 5 minutes and then 10 oral questions) 10 Marks</p>\n" +
+                            "<p>Phase-3 (10 Students):</p>\n" +
+                            "<p>Round-1 : Group Discussion 10 Marks</p>\n" +
+                            "<p>Round-2: Technical Round 10 Marks</p>\n" +
+                            "<p>Round-3: HR Round 10 Marks</p>\n" +
+                            "<p>Phase-4 (5 Students): 50 i-respond questions. (This will be conducted on 26th Jan&rsquo;17)</p>\n" +
+                            "<p>For each i-respond question: 1. Correct answer &amp; 1st response: 4 marks 2. Correct answer &amp; 2nd response: 3 marks 3. Correct answer &amp; 3rd response: 2 marks 4. Correct answer &amp; 4th response: 1 marks 5. Correct answer &amp; 5th response: 0 marks</p>\n" +
+                            "<p>6. No response : -1 marks 7. Wrong answer : -2 marks</p>\n" +
+                            "<p>NOTE: Cumulative Scores are displayed after each i-respond question. Time taken by individual respondent for each question will be showed on request.</p>\n" +
+                            "<p>&nbsp;</p>\n" +
+                            "<p>PRIZE: One Lakh Rupees will be given on 26th Jan&rsquo;17 in prize distribution function.</p>\n" +
+                            "<p>&nbsp;</p>\n" +
+                            "<p>Note: Multiple choice questions will be given in Phase-1 and Phase-4. These are from General Knowledge, Aptitude, Puzzles, Reasoning, English, Mathematics, Physics, Chemistry, Basics in Computers, Electrical, Electronics, Civil and Mechanics and are at Ist B.Tech. standard.</p>\n" +
+                            "<p>For further details contact: Ph.9177412255, email: viceprincipal@usharama.in</p>\n\n\n\n\n  ",
                     R.drawable.engineer_ka_mahasangram));
             events.add(new Event(" Best Business Idea",
                     "       <b class=\"text-danger\">Event Co-ordinator: Mr. V Mahesh John, T&P,  Ph:9396804756  </b><br>\n" +
