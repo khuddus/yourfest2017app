@@ -331,7 +331,7 @@ public class Technical extends AppCompatActivity {
                             "<p>PRIZE: One Lakh Rupees will be given on 26th Jan&rsquo;17 in prize distribution function.</p>\n" +
                             "<p>&nbsp;</p>\n" +
                             "<p>Note: Multiple choice questions will be given in Phase-1 and Phase-4. These are from General Knowledge, Aptitude, Puzzles, Reasoning, English, Mathematics, Physics, Chemistry, Basics in Computers, Electrical, Electronics, Civil and Mechanics and are at Ist B.Tech. standard.</p>\n" +
-                            "<p>For further details contact: Ph.9177412255, email: viceprincipal@usharama.in</p>\n\n\n\n\n  ",
+                            "<p>For further details contact: Ph.9177412255, email: viceprincipal@usharama.in</p><br><br><br><br>\n  ",
                     R.drawable.engineer_ka_mahasangram));
             events.add(new Event(" Best Business Idea",
                     "       <b class=\"text-danger\">Event Co-ordinator: Mr. V Mahesh John, T&P,  Ph:9396804756  </b><br>\n" +
